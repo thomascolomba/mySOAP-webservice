@@ -7,12 +7,12 @@ request :<br/>
 ---<br/>
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.test.org/"> <br/>
   &lt;soapenv:Header/> <br/>
-    <soapenv:Body> <br/>
-      <ws:sayHello> <br/>
-        <guestname>Thomas</guestname> <br/>
-      </ws:sayHello> <br/>
-    </soapenv:Body> <br/>
-</soapenv:Envelope> <br/>
+    &lt;soapenv:Body> <br/>
+      &lt;ws:sayHello> <br/>
+        &lt;guestname>Thomas&lt;/guestname> <br/>
+      &lt;/ws:sayHello> <br/>
+    &lt;/soapenv:Body> <br/>
+&lt;/soapenv:Envelope> <br/>
 ---<br/>
 <br/>
 Here is a screenshot of the webservice being addressed through the software SOAPUI<br/>
