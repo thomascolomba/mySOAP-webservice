@@ -6,7 +6,7 @@ url of wsdl : http://localhost:8080/myJaxWs/helloService?wsdl <br/>
 request :<br/>
 ---<br/>
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.test.org/"> <br/>
-  <soapenv:Header/> <br/>
+  &lt;soapenv:Header/> <br/>
     <soapenv:Body> <br/>
       <ws:sayHello> <br/>
         <guestname>Thomas</guestname> <br/>
